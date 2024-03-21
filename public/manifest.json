@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Bookmark Storage",
+  "version": "1.0",
+  "description": "A simple Chrome extension to read bookmarks.",
+  "permissions": ["bookmarks", "identity"],
+  "action": {
+    "default_title": "Bookmark Storage",
+    "default_popup": "index.html"
+  }
+}
